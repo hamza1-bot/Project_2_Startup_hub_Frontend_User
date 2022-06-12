@@ -1,0 +1,825 @@
+header nav.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  padding: 2.5rem 1rem;
+}
+
+header nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header nav.navbar a.navbar-brand img {
+  width: 100%;
+  max-width: 180px;
+}
+
+header nav.navbar ul.navbar-nav li.nav-item {
+  margin: 0 20px;
+  position: relative;
+}
+
+header nav.navbar ul.navbar-nav li.nav-item:last-child {
+  margin-right: 0;
+}
+
+header nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+  font-size: 16px;
+  padding: 5px 0px;
+  color: #fff;
+  border-bottom: 2px solid #fff0;
+}
+
+header nav.navbar ul.navbar-nav li.nav-item a.nav-link.active {
+  border-bottom-color: #fff;
+}
+
+ul.navbar-nav {
+  list-style: none;
+}
+
+ul.navbar-nav li.nav-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.background {
+  background-image: url(../images/resgister-back.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: 100% 50%;
+  padding: 150px 0 100px;
+}
+
+.background.login .register-box input[type=password] {
+  margin-bottom: 0 !important;
+}
+
+.background.forget h3 {
+  margin-bottom: 30px;
+}
+
+.background.forget .change-box h5 {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.background.forget label {
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.background.forget .otp {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.background.forget .otp input {
+  margin-right: 10px;
+  width: auto;
+  text-align: center;
+  max-width: 59px;
+  margin-top: 20px;
+  margin-bottom: 40px !important;
+}
+
+.background.forget .otp input:last-child {
+  margin-right: 0;
+}
+
+.background:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0000005c;
+}
+
+.background .container {
+  position: relative;
+  z-index: 2;
+  max-width: 400px;
+  margin: auto;
+}
+
+.background .h-100 {
+  height: calc(100vh - 250px);
+}
+
+.background .logo-box {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.background .logo-box img {
+  width: 100vh;
+  max-width: 180px;
+}
+
+.background .register-box {
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding: 50px 20px;
+}
+
+.background .register-box a.Back-btn {
+  font-size: 14px !important;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-77%);
+}
+
+.background .register-box a.Back-btn i {
+  margin-right: 5px;
+}
+
+.background .register-box h3 {
+  color: #000;
+  text-align: center;
+  position: relative;
+}
+
+.background .register-box p {
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 15px 0 30px;
+  color: #7b7b7b;
+}
+
+.background .register-box p a {
+  display: inline;
+  color: #2b8999;
+}
+
+.background .register-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 2px solid #e4e4e4;
+  padding: 10px 0;
+  color: #000;
+}
+
+.background .register-box a {
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: right;
+  margin: 5px 0 30px;
+  color: #7b7b7b;
+  display: block;
+}
+
+.background .register-box button {
+  width: 100%;
+  border: 0;
+  background-color: #5a6175;
+  padding: 15px 10px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.background .register-box button.Gmail {
+  background-color: #e34233 !important;
+  margin-bottom: 10px;
+}
+
+.background .register-box button.Facebook {
+  background-color: #395693 !important;
+}
+
+.background .register-box .or-box {
+  position: relative;
+}
+
+.background .register-box .or-box p {
+  margin: 20px auto !important;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  width: 40px;
+  font-size: 16px;
+}
+
+.background .register-box .or-box:after {
+  content: " ";
+  width: 100%;
+  max-width: 300px;
+  height: 1px;
+  background-color: #c1c1c1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background .register-box .check-box {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #7b7b7b;
+}
+
+.background .register-box .check-box input.form-check-input {
+  width: auto;
+  margin-right: 15px;
+  margin-bottom: 0;
+  padding: 0;
+  border: 0;
+}
+
+.main-banner {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main-banner:after {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+.main-banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+.main-banner .container .banner-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+}
+
+.main-banner .container .banner-content h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.main-banner .container .banner-content p {
+  margin-bottom: 0;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  max-width: 70%;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.-profile form {
+  margin: 20px 0 30px;
+}
+
+.Edit-profile form .form-group {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.Edit-profile form .form-group label {
+  margin-bottom: 0;
+  flex: 0 20%;
+  max-width: 20%;
+  padding: 6px 0px;
+}
+
+.Edit-profile form .form-group input {
+  flex: 0 0 80%;
+  max-width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height: 35px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.Edit-profile form .form-group select {
+  flex: 0 0 80%;
+  max-width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height: 35px;
+  padding: 6px 15px;
+  font-size: 16px;
+}
+
+.Edit-profile form .form-group textarea {
+  flex: 0 0 80%;
+  max-width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height: 80px;
+  padding: 6px 15px;
+  font-size: 16px;
+}
+
+.Edit-profile form .form-group input[type="file"] {
+  flex: 0 0 80%;
+  max-width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height: 51px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+a.update-btn {
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #2b459a;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  max-width: 150px;
+}
+
+a.cancel-btn {
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  background-color: #e74d3d;
+  text-decoration: none;
+  max-width: 150px;
+  margin-left: 20px;
+}
+
+.edit-image {
+  position: relative;
+}
+
+.edit-image input[type="file"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  opacity: .0;
+  cursor: pointer;
+}
+
+.edit-image label {
+  position: absolute;
+  z-index: 1;
+  bottom: -85px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px 0 40px;
+  text-align: center;
+  border-radius: 100%;
+  transition: .3s all;
+}
+
+.edit-image:hover label {
+  bottom: -40px;
+}
+
+footer.footer {
+  /* padding: 60px 0 0; */
+  background-color: #edf7ff;
+}
+
+footer.footer .copy-right p {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #565656;
+  padding: 20px 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #5f5f5f;
+  letter-spacing: .2px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.heading {
+  position: relative;
+  top: -7px;
+}
+
+.heading h2 {
+  font-size: 120px;
+  margin-bottom: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b9b9b9;
+  line-height: .7;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b8b8b8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #858585;
+}
+
+.profile_sec .Profile-img-head {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.profile_sec .Profile-img-head img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.profile_sec .container, .find-friend-sec .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.profile-img-box {
+  width: 23%;
+  max-width: 210px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 5px solid #f2f2f2;
+  max-height: 210px;
+}
+
+.profile_sec .second-box {
+  width: 85%;
+}
+
+.profile-img-box img {
+  width: 100%;
+  max-width: 100%;
+  height: 210px;
+}
+
+.row {
+  display: flex;
+}
+
+.white-box.detail-box {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ddd;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.white-box.detail-box .Name{
+  margin: 15px 0 10px;
+  font-size: 20px;
+}
+
+.white-box.detail-box p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.white-box.detail-box ul {
+  list-style: none;
+}
+
+.white-box.detail-box ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #5f5f5f;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-main {
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #2b459a;
+  border: 0;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  max-width: 150px;
+}
+
+.button__box .btn-main {
+  margin: 10px 10px 0 0;
+}
+
+.copy-right {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.second-box .white-box {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.white-box h4 {
+  margin-bottom: 10px;
+}
+
+.white-box .post-input {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ddd !important;
+  border: 0;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: 0px;
+  margin-bottom: 20px;
+}
+
+.white-box.post-box .btn-main {
+  display: block;
+  margin-top: 20px;
+}
+
+.white-box.post-box .post-content {
+  margin-bottom: 10px;
+}
+
+.white-box.post-box .post-content p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.post-content img {
+  width: 100%;
+}
+
+.post-name {
+  display: flex;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.post-name img {
+  width: 40px;
+  border-radius: 100px;
+  overflow: inherit;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.post-name h5 {
+  line-height: 3;
+}
+
+.search-bar {
+  display: flex;
+  align-content: center;
+}
+
+.search-bar .search {
+  border-bottom: 1px solid #ddd !important;
+  border: 0;
+  margin-right: 10px;
+  padding: 0 15px;
+  flex: 0 40%;
+}
+
+.search-bar {
+  display: flex;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+.result-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.result-box {
+  flex: 0 1 33.3%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.friend-box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #eee;
+}
+
+.friend-name-box {
+  position: relative;
+  display: flex;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.friend-name-box .img-side {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.friend-name-box .img-side img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.name-side p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+.name-side {
+  padding-top: 5px;
+}
+
+.frind-box-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frind-box-btn .btn-main {
+  flex: 0 1 43.5%;
+  max-width: 43.5%;
+}
+
+.frind-box-btn .Delete {
+  background-color: #9e9e9e;
+  color: #fff;
+}
+
+.friend-name-box a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.team-sec {
+  padding: 0 0 90px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+
+.team-sec .img-box {
+  width: 100%;
+  max-width: 217px;
+  border-radius: 100%;
+  margin: 0 auto 25px;
+}
+
+.team-sec .img-box .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-sec .detail {
+  text-align: center;
+}
+
+.team-sec .detail h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.team-sec .detail h6 {
+  font-size: 14px;
+  color: #616161;
+  margin-bottom: 12px;
+}
+
+.team-sec .detail p {
+  font-size: 14px;
+  color: #9d9d9d;
+}
+
+.team-sec .heading.text-center {
+  text-align: center;
+}
+
+.team-sec .container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px!important;
+}
+
+section.find-friend-sec {
+  min-height: 500px;
+}
